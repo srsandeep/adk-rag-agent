@@ -53,15 +53,9 @@ Before running the agent, you need to set up authentication with Google Cloud:
 
 ## Installation
 
-1. **Set up a virtual environment**:
+1. **Set up a virtual environment and install dependencies**:
    ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
+   uv sync
    ```
 
 ## Using the Agent
