@@ -58,6 +58,13 @@ Before running the agent, you need to set up authentication with Google Cloud:
    uv sync
    ```
 
+## Start web agent
+
+1. **Runs adk web server in the context of virtual environment**:
+   ```bash
+   uv run adk web
+   ```
+
 ## Using the Agent
 
 The agent provides the following functionality through its tools:
